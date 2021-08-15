@@ -32,7 +32,7 @@ export default ({ email, password, name, login }) => {
 
   return (
     <>
-      <AppBar style={{ background: '#52616b' }}>
+      <AppBar style={{ background: '#536385' }}>
         <Toolbar style={{ maxWidth: '1200px', margin: '0 auto' }} className='flex items-center w-100'>
           <Typography variant='h6' className='flex items-center justify-center' style={{ flexGrow: 1, color: '#fdfdfe' }}> MY BUDGET </Typography>
         </Toolbar>

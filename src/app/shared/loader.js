@@ -5,8 +5,8 @@ export default ({ loading }) => (
   <div style={{
     background: 'rgba(0, 0, 0, 0.1)',
     position: 'absolute',
-    height: '100vh',
-    width: '100vw',
+    height: '50vh',
+    width: '50vw',
     zIndex: '9999',
     display: loading ? 'flex' : 'none',
     justifyContent: 'center',

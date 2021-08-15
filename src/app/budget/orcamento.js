@@ -74,10 +74,10 @@ export default ({ orcamento, title, valorPrevisto, valorReal, finalizado, despes
             </Tooltip>
 
             <TextField
-              style={{ flexGrow: 1, borderRadius: '4px', margin: '0 1em 0 0', background: '#fdfdfe', color: '#52616b' }}
+              style={{ flexGrow: 1, borderRadius: '4px', margin: '0 1em 0 0', background: '#fdfdfe', color: '#536385' }}
               onChange={(event) => orcamentoTitle(event.target.value)}
               placeholder='Orçamento...'
-              inputProps={{ style: { color: '#52616b' } }}
+              inputProps={{ style: { color: '#536385' } }}
               variant='outlined'
               value={title}
             />
@@ -148,11 +148,11 @@ export default ({ orcamento, title, valorPrevisto, valorReal, finalizado, despes
   };
   return (
     <Card className='w-100' style={{ overflowY: 'auto' }}>
-      <List style={{ background: '#52616b', padding: 0 }}>
+      <List style={{ background: '#536385', padding: 0 }}>
         <ListSubheader className='flex items-center pb2 pt2' >
           <Tooltip title="Abrir Orçamento">
             <Checkbox
-              style={{ margin: '0 0.2em 0 0', color: '#fdfdfe' }}
+              style={{ margin: '0 0.2em 0 0', color: '#fdfdfa' }}
               checked={finalizado}
               onChange={(event) => orcamentoFinalizado(event.target.checked)}
               color='defaut'
@@ -163,7 +163,7 @@ export default ({ orcamento, title, valorPrevisto, valorReal, finalizado, despes
             style={{ flexGrow: 1, borderRadius: '4px', margin: '0 1em 0 0', background: '#c9d6df', color: '#52616b' }}
             onChange={(event) => orcamentoTitle(event.target.value)}
             placeholder='Orçamento...'
-            inputProps={{ style: { color: '#52616b' } }}
+            inputProps={{ style: { color: '#536385' } }}
             variant='outlined'
             value={title}
           />

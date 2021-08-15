@@ -19,7 +19,7 @@ export default ({ email, name, orcamentos }) => {
   };
 
   return (
-    <AppBar position='static' style={{ background: '#52616b' }}>
+    <AppBar position='static' style={{ background: '#536385' }}>
       <Toolbar style={{ maxWidth: '1200px', margin: '0 auto' }} className='flex items-center w-100'>
         <Typography variant='h6' style={{ flexGrow: 1, color: '#fdfdfe' }}> MY BUDGET</Typography>
         <span>&nbsp;&nbsp;</span>
